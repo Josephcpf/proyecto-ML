@@ -63,8 +63,8 @@ O abrirlo directamente en VS Code con la extensión de Jupyter y correr todas la
 - Dataset filtrado a préstamos con desenlace definitivo (`Fully Paid`, `Charged Off`, `Default`): **1,345,350 filas**.
 - Tasa de default global: **~20%** (fuerte desbalance de clases, justifica el uso de AUC-PR sobre accuracy).
 - Baseline (regresión logística, split temporal 2015-2017 train / 2018 valid):
-  - AUC-ROC: **0.683**
-  - AUC-PR: **0.271**
+  - AUC-ROC: **0.682**
+  - AUC-PR: **0.272**
   - Recall clase "Malo" (default): **0.57**
 - Se observó *drift* temporal entre años: tasa de default de 21.9% en train (2015-2017) vs. 15.8% en valid (2018), relevante para la estrategia de validación de las siguientes etapas.
 
