@@ -1,8 +1,14 @@
-# Datos (no versionar, son pesados y se descargan de Kaggle)
+# Datos (no versionar: pesados, se descargan de Kaggle)
 data/raw/
 data/processed/
 *.csv
 *.csv.gz
+*.parquet
+
+# Pero SÍ versionar los resultados del proyecto (exigidos por la rúbrica)
+!outputs/*.csv
+!outputs/*.json
+!reports/**/*.csv
 
 # Notebooks - checkpoints
 .ipynb_checkpoints/
@@ -14,10 +20,6 @@ __pycache__/
 venv/
 env/
 *.egg-info/
-
-# Outputs generados
-outputs/*.json
-reports/figures/*.png
 
 # Entorno / editor
 .vscode/
