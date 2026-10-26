@@ -90,3 +90,19 @@ def prepare_dataset(df_raw):
     df = features.clean(df)
     df = features.engineer(df)
     return df
+
+
+def load_splits(names=("train", "valid")):
+    """Lee los splits guardados por notebooks/02_limpieza_features.ipynb.
+
+    Por defecto NO carga el test: durante la selección de modelos no se debe tocar.
+    """
+    out = []
+    for name in names:
+        path = config.DATA_PROCESSED / f"{name}.parquet"
+        if not path.exists():
+            raise FileNotFoundError(
+                f"No existe {path}. Ejecuta primero notebooks/02_limpieza_features.ipynb."
+            )
+        out.append(pd.read_parquet(path))
+    return out
