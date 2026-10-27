@@ -4,11 +4,11 @@
 ## 1. Título del proyecto
 Predicción de riesgo de default en préstamos personales: un enfoque honesto sin leakage sobre Lending Club Loan Data
 
-## 2. Integrantes
-- [Nombre integrante 1]
-- [Nombre integrante 2]
-- [Nombre integrante 3]
-- [Nombre integrante 4]
+## 2. Integrantes 
+- Shillta Huamán, Dalesska Belinda Isabel 202320097
+- Palacios Dávalos, Flavia Luciana 202110258
+- Joseph Jossemy, Cabanillas Solís 202410347
+- Andrea Nicole Orellana García 202220252
 
 *(completar con los nombres reales del equipo antes de entregar)*
 
