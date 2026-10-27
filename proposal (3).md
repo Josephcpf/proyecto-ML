@@ -10,8 +10,6 @@ Predicción de riesgo de default en préstamos personales: un enfoque honesto si
 - Joseph Jossemy, Cabanillas Solís 202410347
 - Andrea Nicole Orellana García 202220252
 
-*(completar con los nombres reales del equipo antes de entregar)*
-
 ## 3. Dataset elegido
 **Lending Club Loan Data** (Kaggle / Lending Club)
 URL: https://www.kaggle.com/datasets/wordsforthewise/lending-club
